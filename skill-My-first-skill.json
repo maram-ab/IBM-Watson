@@ -1,0 +1,2790 @@
+{
+  "intents": [
+    {
+      "intent": "locate_amenity",
+      "examples": [
+        {
+          "text": "i want pizza"
+        },
+        {
+          "text": "I want a bar"
+        },
+        {
+          "text": "Take me home"
+        },
+        {
+          "text": "I want eat"
+        },
+        {
+          "text": "i want piza"
+        },
+        {
+          "text": "i want"
+        },
+        {
+          "text": "where can i eat pizza?"
+        },
+        {
+          "text": "where is ATM"
+        },
+        {
+          "text": "hello. I want an ice cream. Where can I find one?"
+        },
+        {
+          "text": "how do i get to the hospital"
+        },
+        {
+          "text": "where is the bathroom?"
+        },
+        {
+          "text": "where can i have pizza"
+        },
+        {
+          "text": "where can i have piza"
+        },
+        {
+          "text": "Navigation"
+        },
+        {
+          "text": "Information on locations near me"
+        },
+        {
+          "text": "I'd like to get something to eat"
+        },
+        {
+          "text": "Find best gas option"
+        },
+        {
+          "text": "Stop for food/coffee"
+        },
+        {
+          "text": "where can i drink="
+        },
+        {
+          "text": "where can i have pizza="
+        },
+        {
+          "text": "how do i get home?"
+        },
+        {
+          "text": "I am hungry"
+        },
+        {
+          "text": "show me the best path"
+        },
+        {
+          "text": "I want to eat pizza"
+        },
+        {
+          "text": "i'm hungry"
+        },
+        {
+          "text": "Amenities"
+        },
+        {
+          "text": "find a restaurant"
+        },
+        {
+          "text": "i want drink"
+        },
+        {
+          "text": "can you find the nearest gas station for me"
+        },
+        {
+          "text": "get me directions"
+        },
+        {
+          "text": "gps"
+        },
+        {
+          "text": "i need some coffee"
+        },
+        {
+          "text": "i need to stop for gas"
+        },
+        {
+          "text": "I want to stop for some food"
+        },
+        {
+          "text": "im hungry I want to eat something"
+        },
+        {
+          "text": "let's get some grub"
+        },
+        {
+          "text": "where are the closest restrooms"
+        },
+        {
+          "text": "wheres the nearest exi"
+        },
+        {
+          "text": "order a pizza"
+        },
+        {
+          "text": "pizza"
+        },
+        {
+          "text": "locate ammenity"
+        },
+        {
+          "text": "navigate home"
+        },
+        {
+          "text": "go to home"
+        },
+        {
+          "text": "navigate to home"
+        },
+        {
+          "text": "where is a restaurant"
+        },
+        {
+          "text": "where is the pool"
+        },
+        {
+          "text": "where can i have pizza?"
+        },
+        {
+          "text": "where can i have piza?"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Is anybody home?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "traffic_update",
+      "examples": [
+        {
+          "text": "how's traffic?"
+        },
+        {
+          "text": "How long will it take to get there?"
+        },
+        {
+          "text": "how long it would take me get home?"
+        },
+        {
+          "text": "hows traffic?"
+        },
+        {
+          "text": "is the highway busy?"
+        },
+        {
+          "text": "Are there any jams"
+        },
+        {
+          "text": "how's the traffic today?"
+        },
+        {
+          "text": "How's the traffic?"
+        },
+        {
+          "text": "how far"
+        },
+        {
+          "text": "how is traffic looking this evening?"
+        },
+        {
+          "text": "when rain there is lot of trafic jams"
+        },
+        {
+          "text": "hows traffic"
+        },
+        {
+          "text": "how's traffic"
+        },
+        {
+          "text": "jam?"
+        },
+        {
+          "text": "how th traffice"
+        },
+        {
+          "text": "how fa"
+        },
+        {
+          "text": "whats the traffic like on 101"
+        },
+        {
+          "text": "whats my ETA"
+        },
+        {
+          "text": "traffic conditions on 85"
+        },
+        {
+          "text": "traffic conditions"
+        },
+        {
+          "text": "is there an accident ahead"
+        },
+        {
+          "text": "hows traffic looking"
+        },
+        {
+          "text": "how long until I arrive"
+        },
+        {
+          "text": "give me traffic updates"
+        },
+        {
+          "text": "are there any accidents ahead"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Change topic"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "turn_down",
+      "examples": [
+        {
+          "text": "I need you to turn the radio down"
+        },
+        {
+          "text": "its too hot turn down the heat"
+        },
+        {
+          "text": "lower the volume"
+        },
+        {
+          "text": "make the music quieter"
+        },
+        {
+          "text": "please turn the music down"
+        },
+        {
+          "text": "the heater needs to be turned down"
+        },
+        {
+          "text": "turn down the music"
+        },
+        {
+          "text": "turn down the radio"
+        },
+        {
+          "text": "turn it down"
+        },
+        {
+          "text": "turn my music down"
+        },
+        {
+          "text": "turn the ac down for me"
+        },
+        {
+          "text": "turn this song down"
+        },
+        {
+          "text": "turn the heat down"
+        },
+        {
+          "text": "It's very loud"
+        },
+        {
+          "text": "I need you to turn my music down"
+        }
+      ]
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        {
+          "text": "is it dark outside"
+        },
+        {
+          "text": "Does the weather get worse"
+        },
+        {
+          "text": "When will the rain stop?"
+        },
+        {
+          "text": "do I need a jacket?"
+        },
+        {
+          "text": "how cold is it out?"
+        },
+        {
+          "text": "whats the weather outside?"
+        },
+        {
+          "text": "whats the weather like right now"
+        },
+        {
+          "text": "what is the weather like?"
+        },
+        {
+          "text": "tell me the weather"
+        },
+        {
+          "text": "how cold is it outside"
+        },
+        {
+          "text": "how warm is it?"
+        },
+        {
+          "text": "how long will it rain"
+        },
+        {
+          "text": "how hot is it outside?"
+        },
+        {
+          "text": "how hot is it outside"
+        },
+        {
+          "text": "is it raining?"
+        },
+        {
+          "text": "it's hot"
+        },
+        {
+          "text": "check weather"
+        },
+        {
+          "text": "check the weather"
+        },
+        {
+          "text": "what's the weather"
+        },
+        {
+          "text": "hot"
+        },
+        {
+          "text": "cold!"
+        },
+        {
+          "text": ";cold"
+        },
+        {
+          "text": "how hot"
+        },
+        {
+          "text": "check the wheather"
+        },
+        {
+          "text": "when will the sun come out"
+        },
+        {
+          "text": "is it raining"
+        },
+        {
+          "text": "how cold?"
+        },
+        {
+          "text": "what is system err?"
+        },
+        {
+          "text": "It's cold here"
+        }
+      ]
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I don't understand"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "out_of_scope",
+      "examples": [
+        {
+          "text": "What does red engine light mean?"
+        },
+        {
+          "text": "Is there an automatic drive feature?"
+        },
+        {
+          "text": "Is there a warning light for low washer fluid?"
+        },
+        {
+          "text": "What kind of fuel should I use?"
+        },
+        {
+          "text": "does the car have safety features?"
+        },
+        {
+          "text": "How do I turn off the passenger side air bag"
+        },
+        {
+          "text": "How is the miles-per-gallon number being calculated exactly?"
+        },
+        {
+          "text": "what size is the car?"
+        },
+        {
+          "text": "how wide is the wheels of the car?"
+        },
+        {
+          "text": "What is the storage capacity?"
+        },
+        {
+          "text": "how wide are the wheels of the car?"
+        },
+        {
+          "text": "How do I disable the running lights?"
+        },
+        {
+          "text": "when should I have my service check?"
+        },
+        {
+          "text": "How much gas do I have when the light goes on?"
+        },
+        {
+          "text": "Is there security on the GPS?"
+        },
+        {
+          "text": "What is the model of my car?"
+        },
+        {
+          "text": "Can I lock the navigation system?"
+        },
+        {
+          "text": "What is the length of my windshield wiper blades?"
+        },
+        {
+          "text": "what are the crash ratings?"
+        },
+        {
+          "text": "What tire pressures to I use to inflate my tires?"
+        },
+        {
+          "text": "I need to work on my car"
+        },
+        {
+          "text": "do I need to change my tire"
+        },
+        {
+          "text": "how do I change my tire?"
+        },
+        {
+          "text": "how do I paint my car?"
+        },
+        {
+          "text": "how do I replace a hub cap?"
+        },
+        {
+          "text": "how do i change my oil"
+        },
+        {
+          "text": "how do i change my wipers"
+        },
+        {
+          "text": "how should I replace my engine"
+        },
+        {
+          "text": "tell me how to remove a dent"
+        },
+        {
+          "text": "repair the car"
+        },
+        {
+          "text": "How do I change tires?"
+        },
+        {
+          "text": "Where is the spare tire?"
+        },
+        {
+          "text": "How often should I change the wiper blades?"
+        },
+        {
+          "text": "What does the yellow light in dashboard mean?"
+        },
+        {
+          "text": "Can I continue to drive, if I see battery light on"
+        },
+        {
+          "text": "What is the proper tire pressure?"
+        },
+        {
+          "text": "How do I disable my security alarm?"
+        },
+        {
+          "text": "Which side is the gas cap?"
+        },
+        {
+          "text": "How can I open the bonet"
+        },
+        {
+          "text": "where is the fuel filler flap"
+        },
+        {
+          "text": "my engine is overheating"
+        },
+        {
+          "text": "How often should I rotate my tires?"
+        },
+        {
+          "text": "When should my air filter be changed?"
+        },
+        {
+          "text": "where is the cruise control?"
+        },
+        {
+          "text": "How do I lock the doors from inside?"
+        },
+        {
+          "text": "Is there a passenger airbag?"
+        },
+        {
+          "text": "How much oil do I need?"
+        },
+        {
+          "text": "how big is my gas tank?"
+        },
+        {
+          "text": "how do I start cruise control?"
+        },
+        {
+          "text": "how do I resume cruise control?"
+        },
+        {
+          "text": "how do I set cruise control?"
+        },
+        {
+          "text": "Can I lock the passenger doors?"
+        },
+        {
+          "text": "Can I child lock the windows?"
+        },
+        {
+          "text": "How does the bluetooth work?"
+        },
+        {
+          "text": "When do I need to change my oil?"
+        },
+        {
+          "text": "How often do I need to change my oil?"
+        },
+        {
+          "text": "What type of oil does it take?"
+        },
+        {
+          "text": "how so I upload a new map to my navigation system"
+        },
+        {
+          "text": "what is TPMS?"
+        },
+        {
+          "text": "What is a good car for $5000?"
+        },
+        {
+          "text": "What PSI do I inflate the spare tire to"
+        },
+        {
+          "text": "Can you repair a 1977 Dodge Dart?"
+        },
+        {
+          "text": "How to connect bluetooth?"
+        },
+        {
+          "text": "How much gas does my car hold"
+        },
+        {
+          "text": "How do I program my radio stations?"
+        },
+        {
+          "text": "how to install third party audio device?"
+        },
+        {
+          "text": "what type of oil do i need?"
+        },
+        {
+          "text": "Where is the latch to pop the gas cap?"
+        },
+        {
+          "text": "replace windshield wipers"
+        },
+        {
+          "text": "when are the service due?"
+        },
+        {
+          "text": "How many miles flat tire can survive?"
+        },
+        {
+          "text": "How frequently should I change the oil?"
+        },
+        {
+          "text": "Replace headlight"
+        },
+        {
+          "text": "Which side of the car do I pump gas into?"
+        },
+        {
+          "text": "Replace the oil"
+        },
+        {
+          "text": "how to turn on security system?"
+        },
+        {
+          "text": "What kind of oil does my car take?"
+        },
+        {
+          "text": "When do I start using high mileage oil?"
+        },
+        {
+          "text": "What mileage is my first oil change?"
+        },
+        {
+          "text": "Is there a warning light for when the brake pads are low?"
+        },
+        {
+          "text": "How often should I change my wipers?"
+        },
+        {
+          "text": "Does the oil light go on based on viscosity or just mileage?"
+        },
+        {
+          "text": "What settings would I use for driving in snow?"
+        },
+        {
+          "text": "What settings would I use for driving in mud?"
+        },
+        {
+          "text": "What settings should I use for driving in sand?"
+        },
+        {
+          "text": "Does the oil light take into account the high mileage synthetic oil?"
+        },
+        {
+          "text": "Where is the fuse box located on my 2014 Ford Fusion?"
+        },
+        {
+          "text": "Why is my check engine light flashing?"
+        },
+        {
+          "text": "Can I drive safely if my check engine light is flashing?"
+        },
+        {
+          "text": "Does my car have antilock brakes?"
+        },
+        {
+          "text": "how do I change a tire?"
+        },
+        {
+          "text": "What is the highway MPG?"
+        },
+        {
+          "text": "I'm at the gas station and can't find the darn latch to access the gas tank. Where is it?"
+        },
+        {
+          "text": "Where is the fuse box"
+        },
+        {
+          "text": "Where is the usb charger on my car?"
+        },
+        {
+          "text": "Will the interior lights turn off on their own after awhile?"
+        },
+        {
+          "text": "Where is the gas tank open button?"
+        },
+        {
+          "text": "Where is the fuse box located?"
+        },
+        {
+          "text": "What kind of fuel does this car require?"
+        },
+        {
+          "text": "Does this car require high octane gasoline?"
+        },
+        {
+          "text": "How do I adjust the rear seats"
+        },
+        {
+          "text": "How many cylinders does this car have?"
+        },
+        {
+          "text": "Is there an automatic parallel park feature?"
+        }
+      ]
+    },
+    {
+      "intent": "turn_up",
+      "examples": [
+        {
+          "text": "can you turn my seat warmer on"
+        },
+        {
+          "text": "can you turn the heat up"
+        },
+        {
+          "text": "increase the volume"
+        },
+        {
+          "text": "please turn my music up"
+        },
+        {
+          "text": "please turn the heater up"
+        },
+        {
+          "text": "please turn up the music"
+        },
+        {
+          "text": "turn on ac"
+        },
+        {
+          "text": "turn on defroster"
+        },
+        {
+          "text": "turn on heater"
+        },
+        {
+          "text": "turn the ac up"
+        },
+        {
+          "text": "turn the radio up"
+        },
+        {
+          "text": "turn the volume up now"
+        },
+        {
+          "text": "turn up the heater"
+        },
+        {
+          "text": "turn up this song"
+        },
+        {
+          "text": "play the song louder"
+        },
+        {
+          "text": "can you increase the speed"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "phone",
+      "examples": [
+        {
+          "text": "make a phone call"
+        },
+        {
+          "text": "I'd like to make a call"
+        },
+        {
+          "text": "I'd like to call my mom"
+        },
+        {
+          "text": "I would like to call someone on the phone"
+        },
+        {
+          "text": "I want to text my father"
+        },
+        {
+          "text": "call on the telephone"
+        },
+        {
+          "text": "call dad"
+        },
+        {
+          "text": "answer the phone"
+        },
+        {
+          "text": "do you have a phone?"
+        },
+        {
+          "text": "What's your phone number?"
+        },
+        {
+          "text": "dial Home"
+        },
+        {
+          "text": "smartphone"
+        },
+        {
+          "text": "use the phone"
+        },
+        {
+          "text": "text someone"
+        },
+        {
+          "text": "text mom"
+        }
+      ]
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "No clue"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "turn_off",
+      "examples": [
+        {
+          "text": "I don't need my wipers anymore"
+        },
+        {
+          "text": "I don't want to hear music anymore"
+        },
+        {
+          "text": "I need my wipers off"
+        },
+        {
+          "text": "I want the radio off"
+        },
+        {
+          "text": "Turn off my nightbeams"
+        },
+        {
+          "text": "cancel cruise control"
+        },
+        {
+          "text": "cruise control off"
+        },
+        {
+          "text": "lights off"
+        },
+        {
+          "text": "please unlock the door for me"
+        },
+        {
+          "text": "switch my headlights to off"
+        },
+        {
+          "text": "switch off the radio"
+        },
+        {
+          "text": "turn off my headlights"
+        },
+        {
+          "text": "turn cruise control off"
+        },
+        {
+          "text": "turn off my lights please"
+        },
+        {
+          "text": "unlock my door please"
+        },
+        {
+          "text": "turn the radio off"
+        },
+        {
+          "text": "turn the music off please"
+        },
+        {
+          "text": "turn off the radio right now"
+        },
+        {
+          "text": "turn off my wipers"
+        },
+        {
+          "text": "turn off my windshield wipers"
+        },
+        {
+          "text": "turn off my window wipers"
+        },
+        {
+          "text": "unlock my doors now"
+        },
+        {
+          "text": "will you turn my lights off please"
+        },
+        {
+          "text": "I don't need my doors locked anymore"
+        }
+      ]
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "off_topic",
+      "examples": [
+        {
+          "text": "what is your name"
+        },
+        {
+          "text": "where should I turn?"
+        },
+        {
+          "text": "my car won't start"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "what time is it?"
+        },
+        {
+          "text": "What's the speed?"
+        },
+        {
+          "text": "what is my speed?"
+        },
+        {
+          "text": "which color is best for wedding"
+        },
+        {
+          "text": "what is your name?"
+        },
+        {
+          "text": "Turn left"
+        },
+        {
+          "text": "ok watson, why should I use you"
+        },
+        {
+          "text": "how do i reset lotus notes password"
+        },
+        {
+          "text": "how do i reset notes password"
+        },
+        {
+          "text": "I'd like to have dinner with you"
+        },
+        {
+          "text": "whats your name"
+        },
+        {
+          "text": "How are you doing?"
+        },
+        {
+          "text": "Hello, how are you?"
+        },
+        {
+          "text": "You're asking me too much"
+        },
+        {
+          "text": "book a flight for NY on sunday"
+        },
+        {
+          "text": "what kind of food do you eat"
+        },
+        {
+          "text": "tell me your favorite foods"
+        },
+        {
+          "text": "what types of food do you like"
+        },
+        {
+          "text": "tell me your favorite color"
+        },
+        {
+          "text": "how tall are you"
+        },
+        {
+          "text": "how much do you weigh"
+        },
+        {
+          "text": "how many licks does it take to get to the center of a tootsie roll"
+        },
+        {
+          "text": "how far is the moon"
+        },
+        {
+          "text": "cats are my favorite animal"
+        },
+        {
+          "text": "I want to eat tacos everyday"
+        },
+        {
+          "text": "I want to date you"
+        },
+        {
+          "text": "I love spicy food"
+        },
+        {
+          "text": "I love dolphins"
+        },
+        {
+          "text": "I enjoy petting cats"
+        },
+        {
+          "text": "asdasidjiwe"
+        },
+        {
+          "text": "whats the square root of 70"
+        },
+        {
+          "text": "whats your favorite color"
+        },
+        {
+          "text": "whats your favorite movie"
+        },
+        {
+          "text": "culd"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "lgiths"
+        },
+        {
+          "text": "poop"
+        },
+        {
+          "text": "lgits"
+        },
+        {
+          "text": "Ola"
+        },
+        {
+          "text": "dfddfg"
+        },
+        {
+          "text": "aho"
+        },
+        {
+          "text": "asdasdasda"
+        },
+        {
+          "text": "carrot"
+        },
+        {
+          "text": "huhu"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Yolo"
+        },
+        {
+          "text": "test"
+        },
+        {
+          "text": "hola como estas"
+        },
+        {
+          "text": "cool"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "Nuts!"
+        },
+        {
+          "text": "fdsafsaHi watson"
+        },
+        {
+          "text": "Hello Watson"
+        },
+        {
+          "text": "Hi watson"
+        },
+        {
+          "text": "i need a new wheelchair"
+        },
+        {
+          "text": "This is awesome"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "I want to talk"
+        },
+        {
+          "text": "system error, unable to lonin"
+        },
+        {
+          "text": "why?"
+        },
+        {
+          "text": "I need to open my door"
+        },
+        {
+          "text": "What does a car smell like after an airbag deploys?"
+        },
+        {
+          "text": "hi how are u"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "why is the sky blue"
+        },
+        {
+          "text": "How do I pop the gas tank cover?"
+        },
+        {
+          "text": "where is the poop deck on this ship?"
+        },
+        {
+          "text": "i want to see how this demo works"
+        },
+        {
+          "text": "I need to shut it down"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "open door"
+        },
+        {
+          "text": "shut down"
+        },
+        {
+          "text": "it's too dark"
+        },
+        {
+          "text": "what's your name"
+        },
+        {
+          "text": "roll down windows"
+        },
+        {
+          "text": "$"
+        },
+        {
+          "text": "Post-it notes taste terrible."
+        },
+        {
+          "text": "deploy airbags"
+        },
+        {
+          "text": "shutdown"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "testing om"
+        }
+      ]
+    },
+    {
+      "intent": "capabilities",
+      "examples": [
+        {
+          "text": "What can i say"
+        },
+        {
+          "text": "What are you"
+        },
+        {
+          "text": "what can I do"
+        },
+        {
+          "text": "what else"
+        },
+        {
+          "text": "what things can you do"
+        },
+        {
+          "text": "what do you know"
+        },
+        {
+          "text": "what can you help me with"
+        },
+        {
+          "text": "what can you do for me"
+        },
+        {
+          "text": "what can you do"
+        },
+        {
+          "text": "tell me what you can do"
+        },
+        {
+          "text": "tell me what things you can do"
+        },
+        {
+          "text": "how can you help me"
+        },
+        {
+          "text": "How are you going to help me?"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Actually, I take that back"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "turn_on",
+      "examples": [
+        {
+          "text": "I need more lights"
+        },
+        {
+          "text": "play some music"
+        },
+        {
+          "text": "turn on the ballgame"
+        },
+        {
+          "text": "turn the power on"
+        },
+        {
+          "text": "turn on the A/C"
+        },
+        {
+          "text": "turn on power"
+        },
+        {
+          "text": "it's dark"
+        },
+        {
+          "text": "lights"
+        },
+        {
+          "text": "i can't see"
+        },
+        {
+          "text": "wipers"
+        },
+        {
+          "text": "play music"
+        },
+        {
+          "text": "watson please turn my headlights on"
+        },
+        {
+          "text": "turn on wipers"
+        },
+        {
+          "text": "turn on the backcam"
+        },
+        {
+          "text": "turn on my rear camera"
+        },
+        {
+          "text": "turn on my lights"
+        },
+        {
+          "text": "turn on my hazards"
+        },
+        {
+          "text": "turn my windshield wipers on"
+        },
+        {
+          "text": "turn my lights on for me"
+        },
+        {
+          "text": "turn my backup cam on"
+        },
+        {
+          "text": "radio on now"
+        },
+        {
+          "text": "lock my doors"
+        },
+        {
+          "text": "lights on"
+        },
+        {
+          "text": "its raining, turn my wipers on"
+        },
+        {
+          "text": "headlights on"
+        },
+        {
+          "text": "click my locks"
+        },
+        {
+          "text": "can you turn on the radio"
+        }
+      ]
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure I'll do"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#turn_on || #turn_up || #turn_off || #turn_down",
+      "dialog_node": "node_1_1594944759059",
+      "previous_sibling": "node_8_1594848814483"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you know that you can make me moving by using the displayed control panel"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bot_Control_Change_Subject",
+      "dialog_node": "node_2_1594847887973",
+      "previous_sibling": "node_7_1594847307333"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK. See you later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_10_1594842346547",
+      "previous_sibling": "node_1_1594944759059"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good day to you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings || #off_topic",
+      "dialog_node": "node_8_1594842158259",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_7_1594847307333",
+      "previous_sibling": "node_2_1594847143104"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1594842346547",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am Sadia Robot and you can direct me"
+              },
+              {
+                "text": "that's right I'm a robot"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You || #General_Human_or_Bot || #capabilities",
+      "dialog_node": "node_2_1594847143104",
+      "previous_sibling": "node_8_1594842158259"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm still around"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bot_Control_Confirm_Presence",
+      "dialog_node": "node_8_1594848814483",
+      "previous_sibling": "node_2_1594847887973"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to Sadia Robot website!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
