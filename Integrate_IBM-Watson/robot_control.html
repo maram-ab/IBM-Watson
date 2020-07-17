@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+
+	<body>
+		
+		
+		<input Name="IB3" type="Image" src="forward.jpg" height=80 width=80
+		style="margin-left:83px"><br> </br>
+		
+		<input Name="IB1" type="Image" src="left.jpg" height=80 width=80> 
+		
+		<input Name="IB4" type="Image" src="backward.jpg" height=80 width=80>
+		
+		<input Name="IB2" type="Image" src="right.jpg" height=80 width=80><br> </br>
+		
+		
+		
+		<input Name="IB5" type="Image" src="stop.png" 
+		style="margin-left:83px" height=80 width=80 autofocus="autofocus">	
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "528aa0df-6045-43fd-9f6c-13c884b791a5", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "322461c4-c231-4c18-bbb9-88cefeac50a1", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>		
+
+	</body>
+</html>
